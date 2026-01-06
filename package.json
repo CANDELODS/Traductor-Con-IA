@@ -1,0 +1,30 @@
+{
+  "name": "traductor",
+  "version": "1.0.0",
+  "description": "Proyecto que permite traduccir mensajes a diferentes idiomas usando JS y el API de OpenAI",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "serve": "node app.js"
+  },
+  "keywords": [
+    "IA",
+    "OpenAI",
+    "JS",
+    "HTML",
+    "CSS",
+    "Node.JS"
+  ],
+  "author": "Juan Sebastian Candelo Balanta",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "openai": "^6.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
