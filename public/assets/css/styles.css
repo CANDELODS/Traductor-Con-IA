@@ -61,24 +61,20 @@ body{
     font-size: 1.8rem;
     border-radius: 1rem;
     word-wrap: break-word; /*Rompér palabras si el texto es demasiado largo*/
-    display: flex;
-    align-items: center;
 }
 
 .chat__message--user{
-    align-items: flex-end;
     background-color: #ff9b00;
     color: white;
     text-align: right;
-    justify-content: flex-end;
+    margin-left: auto;
 }
 
 .chat__message--bot{
-    align-items: flex-start;
     background-color: #e0e0e0;
     color: #333;
     text-align: left;
-    justify-content: flex-start;
+    margin-right: auto;
 }
 
 
